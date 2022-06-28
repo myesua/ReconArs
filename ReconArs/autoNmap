@@ -1,0 +1,19 @@
+#!/bin/bash
+
+clear
+
+# Variables
+
+#
+scan_port() {
+	sudo nmap $target -p $port
+}
+
+echo -n "Enter your target IP: " 
+read target
+echo -n "Enter the port(s) you wish to scan each seperated with a space: "
+read port
+echo "Scanning..."
+sleep 1
+scan_port
+
