@@ -18,7 +18,7 @@ export Neutral
 export medium
 
 echo "***************************************************"
-echo "Welcome to Recon Arsenal!"
+echo "Welcome to Recon Arsenal! By Joshua Mayowa"
 echo "You can do recon on many things including yourself"
 echo "***************************************************"
 echo "Loading...please give me some seconds"
